@@ -26,6 +26,7 @@ module.exports = () => {
         swSrc: "./src-sw.js",
         swDest: "src-sw.js",
       }),
+      // manifest with metaidata holding information to cash
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
@@ -45,7 +46,7 @@ module.exports = () => {
         ],
       }),
     ],
-
+    // rules for dist folder to compile on page load
     module: {
       rules: [
         {
