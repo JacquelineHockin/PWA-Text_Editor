@@ -28,7 +28,7 @@ How to run the application locally (after installing dependencies):
 - Clone this repository
 - Run "npm install" in the command line of your terminal
 - Run "npm start" 
-- Go to (http//:localhost:3001) 
+- Go to (http//:localhost:3000) 
 
 
 ## Screenshots
